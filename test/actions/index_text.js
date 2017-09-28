@@ -1,5 +1,5 @@
 import { expect } from '../test_helper';
-import { SAVE_COMMENT } from '../../src/actions';
+import { SAVE_COMMENT } from '../../src/actions/types';
 import { saveComment } from '../../src/actions';
 
 describe('actions', () => {
