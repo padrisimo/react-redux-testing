@@ -1,9 +1,9 @@
 import { renderComponent , expect } from '../test_helper';
-import CommentList from '../../src/components/app';
+import CommentList from '../../src/components/comment_list';
 
 
 describe('CommentList', () => {
-    const props = { comments: ['new comment', 'otner nu comment'] };
+    const props = { comments: ['new comment', 'other nu comment'] };
     const component = renderComponent(CommentList, null, props);
 
     it('shows an LI for each comment', () => {
